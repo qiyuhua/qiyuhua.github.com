@@ -1,9 +1,9 @@
 ---
 layout: landing
-title: mceiba的个人博客
-head_title: 晨旭园
+title: 齐玉华的个人博客
+head_title: 玉怜其华
 description: |
-  屌丝的技术生涯
+  科大的升华人生
 ---
 
 <div class="row" style="margin-bottom:20px;">
