@@ -3,43 +3,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello World!</title>
-    
-    <meta name="author" content="Name Lastname">
-
-    <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晨旭园 | mceiba的个人博客</title>
+    <meta name="description" content="屌丝的技术生涯
+">
+    <meta name="author" content="mceiba">
+    <meta name="keywords" content="晨旭园,mceiba,mceiba的个人博客">
+    <meta property="wb:webmaster" content="45f4c044418008e7" />
+    <meta name="chinaz-site-verification" content="1a7852f9-b42f-481f-bd38-1b9e92a55496" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
-
-    <!-- atom & rss feed -->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
+    <link href="/assets/themes/twitter2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter2/css/custom.css?v=0.3" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter2/css/syntax.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+	<script src="/assets/function.js"></script>
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="/">Jekyll Bootstrap</a>
-          <ul class="nav">
-            
+    <div id="navbar" class="navbar navbar-fixed-top">
+      <div class="navbar-inner" style="background:#2c2c2c">
+        <div class="conainer" style="margin-left:20px; margin-right:20px; overflow:hidden">
+          <a class="brand" href="/">晨旭园</a>
+          <ul class="nav" style="font-weight: 250;">
+            <li class="divider-vertical"></li>
             
             
 
@@ -47,49 +37,19 @@
   
     
       
-    
-  
-    
+      <li><a href="/develop/index.html">技术之旅</a></li>
       
     
   
     
       
-      	
-      	<li><a href="/pages.html">Pages</a></li>
-      	
+      <li><a href="/itnews/index.html">科技潮流</a></li>
       
     
   
     
       
-      	
-      	<li><a href="/tags.html">Tags</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/categories.html">Categories</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/archive.html">Archive</a></li>
-      	
-      
-    
-  
-    
+      <li><a href="/open/index.html">开源项目</a></li>
       
     
   
@@ -97,71 +57,768 @@
 
 
           </ul>
+          
+          <ul class="nav pull-right">
+            <li class="sharing"></li>
+            <li class="divider-vertical"></li>
+            <li><a><span id=localtime class="label" style="background:#FCF8E3; font-size: 11px;"></span><script type="text/javascript">tick();</script></a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="container-narrow">
-
-      <div class="content">
-        
-<div class="page-header">
-  <h1>Hello World!  <small>Supporting tagline</small></h1>
-</div>
-
-<div class="row-fluid">
-  <div class="span12">
-    <p>Read <a href='http://jekyllbootstrap.com/usage/jekyll-quick-start.html'>Jekyll Quick Start</a></p>
-
-<p>Complete usage and documentation available at: <a href='http://jekyllbootstrap.com'>Jekyll Bootstrap</a></p>
-
-<h2 id='update_author_attributes'>Update Author Attributes</h2>
-
-<p>In <code>_config.yml</code> remember to specify your own data:</p>
-
-<pre><code>title : My Blog =)
-
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username</code></pre>
-
-<p>The theme should reference these variables whenever needed.</p>
-
-<h2 id='sample_posts'>Sample Posts</h2>
-
-<p>This blog contains sample posts which help stage pages and blog data. When you don&#8217;t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
-
-<pre><code>$ rm -rf _posts/core-samples</code></pre>
-
-<p>Here&#8217;s a sample &#8220;posts list&#8221;.</p>
-<ul class='posts'>
-  
-    <li><span>17 Apr 2013</span> &raquo; <a href='/2013/04/17/hello-world'>Hello World</a></li>
-  
-    <li><span>29 Dec 2011</span> &raquo; <a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
-  
-</ul>
-<h2 id='todo'>To-Do</h2>
-
-<p>This theme is still unfinished. If you&#8217;d like to be added as a contributor, <a href='http://github.com/plusjade/jekyll-bootstrap'>please fork</a>! We need to clean up the themes, make theme usage guides with theme-specific markup examples.</p>
+    <div id="main" class="container" style="position: relative;>
+      
+<div class="row">
+  <div style="width: 100%">
+    <div class="content landing">
+      <div class="span7" style="width:65%; margin-left: 0px; margin-right: 0px; padding-right:0px;">
+        <div class="row" style="margin-bottom:20px;">
+  <div style="width:100%">
+    <h3 style="margin-bottom:5px; margin-left:20px; color:#333333;">要么旅行,要么读书,身体和灵魂,必须有一个在路上</h3>
+    <h6 align="right" style="font-size:12px; margin-right:8px">喜欢我或者我的博客，可以把它加入你的<a href="javascript:void(0)" onclick="window.external.AddFavorite(location.href, document.title)">收藏夹</a></h6>
   </div>
+  <div class="divbox" style="width:96%;margin-right:0px;padding-right:10px;">
+    <h1 id="start-now" style="margin-left: 0px; margin-right: 0px; font-size: 22px;">最新博文</h1>
+    <div style="margin-left:-15px">
+    
+    
+    
+
+
+  
+    
+    
+    
+    
+  
+    
+      <dl style="margin-left:20px">
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">Learning Python</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">July 11, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">Python是一门优雅的语言，也是我最喜欢的语言，它的简洁高效的语法让你能专注于所解决的问题本身，Learning Python是学习Python最好的入门书籍之一。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/learning/learn-python.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">twitter-bootstrap文档翻译</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">May 13, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">twitter-bootstrap是一个快速、优美的web前端工具包，提供了简单、灵活的HTML、CSS和Javascript组建。是很好的web前端学习资料，当然你也可以将它直接用于项目开发。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/open/twitter-bootstrap.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">Thinking in Java</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">May 11, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">java的经典名著，无需过多解释，没仔细研读过，别说你学过java，随手翻翻也感觉受益匪浅，java是我喜欢的语言之一，Thinking in Java也是我看过的最好的技术书籍之一。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/learning/learn-java.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">Git简明手册</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">May 11, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">Git是一个由林纳斯·托瓦兹为了更好地管理linux内核开发而创立的分布式版本控制／软件配置管理软件。如今已经超越CVS、SVN称为主流的版本控制器。许多著名的开源项目都用Git管理。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/tool/git-cheat-sheet.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">云笔记应用Evernote正式登陆中国</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">May 11, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">2012年5月10日著名的云笔记应用Evernote正式登陆中国,并取了一个好听的中文名——印象笔记，相应新的域名www.yinxiang.com，喜欢Evernote或者喜欢随时记笔记的童鞋可以关注一下。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/itnews/evernote.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">Markdown语法</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">April 28, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">Markdown的语法非常简单，只相当于HTML标签的一个非常非常小的子集。它的目标是让（在网上）让读文章、写文章、修改文章更容易。Markdown是一种书写格式。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/develop/markdown-syntax.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">使用Liquid模板语言</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">April 28, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">Liquid是一模板引擎语言，从电子商务系统Shopify提取而来。Ruby库渲染的安全模板，不影响服务器上的安全性。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/develop/liquid-learn.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+  
+    
+    
+    
+    
+  
+    
+
+    <dt>
+    <h4 style="margin-top:0px;margin-bottom:4px; color:#333333; font-weight: 250;">利用Jekyll搭建个人博客</h4>
+    <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">April 28, 2012</span>
+    <div class="thumbnail" style="background-color: #FFFFFF;">
+    <p style="color:#333333; font-weight: normal;">Jekyll是一个静态网站生成器，用ruby编写而成，结合了markdown、Liquid等技术，简化了静态网站的构建过程，配合disqus等技术，可以方便的生成具有简单动态功能的网站。
+</p>
+    <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="/develop/jekyll-introduction.html">阅读全文 &raquo; </a></div>
+    </div>
+    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    </dt>
+  
+    
+      </dl>
+    
+  
+  
+
+
+  </div>
+  </div>
+  
 </div>
+
+
 
 
       </div>
-      <hr>
-      <footer>
-        <p>&copy; 2013 Name Lastname
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
+      <div class="span4 divbox" style="width=35%; float: right; margin-left: 0px; margin-right: 0px;padding-right:10px; color:#F7F7F9;">
+      <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=0cafc549c3b19e22734695a157ca9c4004ee06a222bb5f79" style="float:right"><img border="0"  src="http://wpa.qq.com/imgd?IDKEY=0cafc549c3b19e22734695a157ca9c4004ee06a222bb5f79&pic=43" alt="猛击可以给我发消息" title="猛击可以给我发消息"></a>                     
+ 
+      
+      <h1 id="start-now" style="margin-left: 0px; font-size: 22px;">欢迎来到晨旭园！</h1>
+      <form method="get" action="http://www.google.com/search" target="google_window" style="margin-bottom: 0px;">
+	<div>	
+		<input type="text" value="" name="q" />
+		<input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 " />
+	</div>
+	<input type="hidden" name="ie" value="UTF-8" />
+	<input type="hidden" name="oe" value="UTF-8" />
+	<input type="hidden" name="hl" value="zh-CN" />
+	<input type="hidden" name="domains" value="http://www.mceiba.com" />
+	<input type="hidden" name="sitesearch" value="http://www.mceiba.com" />
+</form>
 
-    </div>
+                                
+ 
+       
+      <div style="width: 100%; float: right; margin-left: 0px; margin-right: 0px;">
+      <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1651191467&verifier=80fcc888&dpc=1"></iframe>
+      </div>
+      <div id="mc_embed_signup" style="width: 100%; float: right; margin-left: 0px; margin-right: 0px;">
+        <ul id="tab-list" class="nav nav-pills">
+          <li><a href="archive.html">文章存档</a></li>
+          <li><a href="categories.html">博文分类</a></li>
+          <li><a href="tags.html">我的标签</a></li>
+          <!--<li><a href="pages.html">浏览页面</a></li>-->
+        </ul>
+        <div id="tab-content-wrapper">
+          <div>
+            
+            
 
+
+  
     
+    
+    
+    
+    
+  
+    
+      <h2>2012</h2>
+      <h3>July</h3>
+      <ul>
+    
+  
+    <li><span style="color:#333">2012年07月11日 &raquo; </span><a href="/learning/learn-python.html">Learning Python</a></li>
+  
+    
+          
+        
+          </ul>
+          <h3>May</h3>
+          <ul>
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年05月13日 &raquo; </span><a href="/open/twitter-bootstrap.html">twitter-bootstrap文档翻译</a></li>
+  
+    
+          
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年05月11日 &raquo; </span><a href="/learning/learn-java.html">Thinking in Java</a></li>
+  
+    
+          
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年05月11日 &raquo; </span><a href="/tool/git-cheat-sheet.html">Git简明手册</a></li>
+  
+    
+          
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年05月11日 &raquo; </span><a href="/itnews/evernote.html">云笔记应用Evernote正式登陆中国</a></li>
+  
+    
+          
+        
+          </ul>
+          <h3>April</h3>
+          <ul>
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年04月28日 &raquo; </span><a href="/develop/markdown-syntax.html">Markdown语法</a></li>
+  
+    
+          
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年04月28日 &raquo; </span><a href="/develop/liquid-learn.html">使用Liquid模板语言</a></li>
+  
+    
+          
+        
+      
+    
+  
+    
+    
+    
+    
+    
+  
+    
+  
+    <li><span style="color:#333">2012年04月28日 &raquo; </span><a href="/develop/jekyll-introduction.html">利用Jekyll搭建个人博客</a></li>
+  
+    
+      </ul>
+    
+  
+
+
+          </div>
+          
+          <div>
+            <ul class="tag_box inline">
+              
+              
+
+
+  
+     
+      <li><a href="/categories.html#open-ref">
+        open <span>1</span>
+      </a></li>
+     
+      <li><a href="/categories.html#learning-ref">
+        learning <span>2</span>
+      </a></li>
+     
+      <li><a href="/categories.html#itnews-ref">
+        itnews <span>1</span>
+      </a></li>
+     
+      <li><a href="/categories.html#develop-ref">
+        develop <span>3</span>
+      </a></li>
+     
+      <li><a href="/categories.html#tool-ref">
+        tool <span>1</span>
+      </a></li>
+    
+  
+
+
+            </ul>
+
+             
+            <h2 id="open-ref" style="margin-bottom: 0">open</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/open/twitter-bootstrap.html">twitter-bootstrap文档翻译</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="learning-ref" style="margin-bottom: 0">learning</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/learning/learn-python.html">Learning Python</a></li>
+      
+    
+  
+    
+      
+      <li><a href="/learning/learn-java.html">Thinking in Java</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="itnews-ref" style="margin-bottom: 0">itnews</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/itnews/evernote.html">云笔记应用Evernote正式登陆中国</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="develop-ref" style="margin-bottom: 0">develop</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/develop/markdown-syntax.html">Markdown语法</a></li>
+      
+    
+  
+    
+      
+      <li><a href="/develop/liquid-learn.html">使用Liquid模板语言</a></li>
+      
+    
+  
+    
+      
+      <li><a href="/develop/jekyll-introduction.html">利用Jekyll搭建个人博客</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="tool-ref" style="margin-bottom: 0">tool</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/tool/git-cheat-sheet.html">Git简明手册</a></li>
+      
+    
+  
+
+
+
+            </ul>
+            
+          </div>
+
+          <div>
+            <ul class="tag_box inline">
+                
+              
+
+
+  
+     
+      <li><a href="/tags.html#python-ref">python <span>1</span></a></li>
+     
+      <li><a href="/tags.html#git-ref">git <span>1</span></a></li>
+     
+      <li><a href="/tags.html#jekyll-ref">jekyll <span>3</span></a></li>
+     
+      <li><a href="/tags.html#github-ref">github <span>1</span></a></li>
+     
+      <li><a href="/tags.html#bootstrap-ref">bootstrap <span>1</span></a></li>
+     
+      <li><a href="/tags.html#heroku-ref">heroku <span>1</span></a></li>
+     
+      <li><a href="/tags.html#java-ref">java <span>1</span></a></li>
+     
+      <li><a href="/tags.html#evernote-ref">evernote <span>1</span></a></li>
+    
+  
+
+
+
+            </ul>
+
+             
+            <h2 id="python-ref" style="margin-bottom: 0">python</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/learning/learn-python.html">Learning Python</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="git-ref" style="margin-bottom: 0">git</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/tool/git-cheat-sheet.html">Git简明手册</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="jekyll-ref" style="margin-bottom: 0">jekyll</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/develop/markdown-syntax.html">Markdown语法</a></li>
+      
+    
+  
+    
+      
+      <li><a href="/develop/liquid-learn.html">使用Liquid模板语言</a></li>
+      
+    
+  
+    
+      
+      <li><a href="/develop/jekyll-introduction.html">利用Jekyll搭建个人博客</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="github-ref" style="margin-bottom: 0">github</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/tool/git-cheat-sheet.html">Git简明手册</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="bootstrap-ref" style="margin-bottom: 0">bootstrap</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/open/twitter-bootstrap.html">twitter-bootstrap文档翻译</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="heroku-ref" style="margin-bottom: 0">heroku</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/tool/git-cheat-sheet.html">Git简明手册</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="java-ref" style="margin-bottom: 0">java</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/learning/learn-java.html">Thinking in Java</a></li>
+      
+    
+  
+
+
+
+            </ul>
+             
+            <h2 id="evernote-ref" style="margin-bottom: 0">evernote</h2>
+            <ul>
+                
+              
+
+
+  
+    
+      
+      <li><a href="/itnews/evernote.html">云笔记应用Evernote正式登陆中国</a></li>
+      
+    
+  
+
+
+
+            </ul>
+            
+          </div>
+
+        </div>
+      </div>
+
+	  <!-- Friendly Link BEGIN -->
+<div>
+    <h2>友情链接</h2>
+    <ul>
+    <li>
+	<a href="http://www.bonnshore.com/">博文不如一见</a>
+    </li>
+    </ul>
+</div>
+<!-- Friendly Link END -->
+
+      </div>     
+    </div>  
+  </div>
+</div>
+
+      <hr>
+      <footer class="footer" style="text-align:center; margin:40px 0">
+        <p>Lovingly authored by mceiba in 2012 with help 
+          <br>from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>,<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>, and countless humans.
+        </p>
+        <p>&copy; 2012 mceiba, Powered by Github</p>
+        <!--<p><a href="https://mixpanel.com/f/partner"><img src="https://mixpanel.com/site_media/images/partner/badge_light.png" alt="Real Time Web Analytics" /></a></p>-->
+      </footer>
+    </div> <!-- /container -->
+    
+    
+    <a id="forkme" style="display:none" href="http://github.com/mceiba/mceiba.github.com"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="/assets/images/forkme.png" alt="Fork me on GitHub"></a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/twitter2/js/jquery.min.js"><\/script>')</script>
+    <script src="/assets/app.js?v=0.1"></script>
+    <script>
+      $(function(){
+	  forkme.init();
+      
+        Tabs.init("#tab-list", "#tab-content-wrapper");
+        //Pc.init();
+      
+	  })
+    </script>
+    
+    <!---->
   </body>
 </html>
-
