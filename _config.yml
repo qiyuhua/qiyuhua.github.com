@@ -24,7 +24,7 @@ topbar:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 晨旭园
+title : 玉怜其华
 author :
   name : Yuhua Qi
   email : qiyuhua1985@gmail.com
@@ -40,7 +40,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.mceiba.com
+production_url : http://www.qiyuhua.tk
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
