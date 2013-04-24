@@ -13,10 +13,10 @@ topbar:
   #  title : 'Footmark'
   - 
     url : '/develop/index.html'
-    title : '技术之旅'
+    title : '个人简介'
   -
     url : '/itnews/index.html'
-    title : '科技潮流'
+    title : '学术文章'
   -
     url : '/open/index.html'
     title : '开源项目'
