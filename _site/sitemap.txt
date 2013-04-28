@@ -1,22 +1,16 @@
 
-http://www.mceiba.com/index.html
-http://www.mceiba.com/develop/index.html
-http://www.mceiba.com/footmark/index.html
-http://www.mceiba.com/pages.html
-http://www.mceiba.com/itnews/index.html
-http://www.mceiba.com/open/index.html
-http://www.mceiba.com/open/2012-05-13-twitter-bootstrap.html
-http://www.mceiba.com/tags.html
-http://www.mceiba.com/categories.html
-http://www.mceiba.com/post_all.html
-http://www.mceiba.com/archive.html
-http://www.mceiba.com/sitemap.txt
+http://www.qiyuhua.tk/index.html
+http://www.qiyuhua.tk/develop/index.html
+http://www.qiyuhua.tk/footmark/index.html
+http://www.qiyuhua.tk/pages.html
+http://www.qiyuhua.tk/itnews/index.html
+http://www.qiyuhua.tk/open/index.html
+http://www.qiyuhua.tk/open/2012-05-13-twitter-bootstrap.html
+http://www.qiyuhua.tk/tags.html
+http://www.qiyuhua.tk/categories.html
+http://www.qiyuhua.tk/post_all.html
+http://www.qiyuhua.tk/archive.html
+http://www.qiyuhua.tk/sitemap.txt
 
-http://www.mceiba.com/learning/learn-python.html
-http://www.mceiba.com/open/twitter-bootstrap.html
-http://www.mceiba.com/learning/learn-java.html
-http://www.mceiba.com/tool/git-cheat-sheet.html
-http://www.mceiba.com/itnews/evernote.html
-http://www.mceiba.com/develop/markdown-syntax.html
-http://www.mceiba.com/develop/liquid-learn.html
-http://www.mceiba.com/develop/jekyll-introduction.html
+http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/second.html
+http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/my-first-blog.html
