@@ -15,7 +15,7 @@ topbar:
     url : '/develop/index.html'
     title : '个人简介'
   -
-    url : '/itnews/index.html'
+    url : '/publications/index.html'
     title : '学术文章'
   -
     url : '/open/index.html'
