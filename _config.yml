@@ -21,7 +21,7 @@ topbar:
     url : '/open/index.html'
     title : '开源项目'
   -
-    url : '/open/index.html'
+    url : '/develop/index.html'
     title : '老婆兔兔'
 
 # Themes are encouraged to use these universal variables 
