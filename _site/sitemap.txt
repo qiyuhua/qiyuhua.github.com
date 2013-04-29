@@ -12,5 +12,7 @@ http://www.qiyuhua.tk/post_all.html
 http://www.qiyuhua.tk/archive.html
 http://www.qiyuhua.tk/sitemap.txt
 
+http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/comments-config.html
+http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/third.html
 http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/second.html
 http://www.qiyuhua.tk/%E5%AD%A6%E4%B9%A0/my-first-blog.html
