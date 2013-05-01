@@ -31,6 +31,7 @@
             <li class="divider-vertical"></li>
             {% assign pages_list = site.topbar %}
             {% include JB/pages_list %}
+            <li><a href="#contact" role="button" data-toggle="modal">Contact me</a></li>
           </ul>
           
           <ul class="nav pull-right">
@@ -44,6 +45,27 @@
 
     <div id="main" class="container" style="position: relative;>
       {{ content }}
+<img height="10%" src="http://sc.admin5.com/uploads/allimg/100212/1112061C9-0.png"/>
+
+<!-- Contact me modal -->
+	<div id="contact" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="contactLabel">联系我</h3>
+		</div>
+		<div class="modal-body">
+			<p>你可以通过以下方式联系我：</p>
+			<p style="font-size:36px; text-align:center">
+				<h6><i class="icon-envelope"></i> qiyuhua at 126 dot com</h6>
+				<img height="10%" src="http://sc.admin5.com/uploads/allimg/100212/1112061C9-0.png"/> 306546487
+				<a href="https://plus.google.com/108738783171608407069"<i class="icon-google-plus-sign"></i></a>
+			<hr />
+			<p>Any emails regarding Laggacy can be send <a href="http://laggacy.wordpress.com/contact">here</a></p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		</div>
+	</div>
       <hr>
     
     {% include sidebar.html %}
@@ -68,6 +90,10 @@
 	  })
     </script>
     {% include JB/analytics %}
+
     <!--{% include mixpanel %}-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/assets/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
