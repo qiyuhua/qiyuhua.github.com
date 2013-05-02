@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "issta 2013接收后感想“
+title: "issta 2013接收后感想"
 category: 学习
 tags: [生活]
 description: |
