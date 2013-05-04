@@ -1,0 +1,6 @@
+{% comment %}<!--
+	根据page中的miaodians键自动生成topbar
+-->{% endcomment %}
+  {% for node in miaodians_list %}
+      <li ><a href="{{ BASE_PATH }}{{page.url}}{{node.url}}">{{node.miaodian}}</a></li>
+  {% endfor %}

@@ -15,10 +15,10 @@ topbar:
     url : '/develop/index.html'
     title : '个人简介'
   -
-    url : '/publications/index.html'
+    url : '/publications/'
     title : '学术文章'
   -
-    url : '/open/index.html'
+    url : '/projects/issta2013/'
     title : '开源项目'
   -
     url : '/develop/index.html'
