@@ -1,9 +1,11 @@
 <!-- Friendly Link BEGIN -->
 <div>
-    <h2>友情链接</h2>
+    <h2> 重要链接</h2>
     <ul>
     <li>
-	<a href="http://www.bonnshore.com/">博文不如一见</a>
+	<a href="http://www.st.cs.uni-saarland.de/zeller/">Andreas Zeller</a>
+	<a href="http://www.cs.virginia.edu/~weimer/">Westley Weimer</a>
+	<a href="http://people.engr.ncsu.edu/txie/">Tao Xie</a>
     </li>
     </ul>
 </div>
