@@ -15,8 +15,8 @@ description: |
     <h1 id="start-now" style="margin-left: 0px; margin-right: 0px; font-size: 22px;">最新博文</h1>
     <div style="margin-left:-15px">
     {% assign posts_all = site.posts %}
-    {% if posts_all.size > 10 %}{% comment %} 在首页显示posts个数设定 {% endcomment %}
-    	{% assign count = 10 %}
+    {% if posts_all.size > 5 %}{% comment %} 在首页显示posts个数设定 {% endcomment %}
+    	{% assign count = 5 %}
     {% else %}
 	{% assign count = posts_all.size %}
     {% endif %}
