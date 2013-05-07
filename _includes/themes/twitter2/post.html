@@ -4,10 +4,15 @@
       <h1 class="title">{{ page.title }}</h1>
       {{ page.description }}
       {{ content }}
-    {% if page.next and page.categories == page.next.categories %}
+    {% if page.next or page.previous %}
       <hr>
       <div style="text-align:center">
-        <a href="{{ BASE_PATH }}{{ page.next.url }}" class="btn btn-success btn-large">下一篇: {{ page.next.title }} &rarr;</a>
+       {% if page.previous %}
+          <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="btn btn-success btn-large">&larr; 上一篇: {{ page.previous.title }}</a>   
+       {% endif %}
+       {% if page.next %}
+          <a href="{{ BASE_PATH }}{{ page.next.url }}" class="btn btn-success btn-large">下一篇: {{ page.next.title }} &rarr;</a>
+       {% endif %}
       </div>
     {% endif %}
     </div>
