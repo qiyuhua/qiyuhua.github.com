@@ -18,7 +18,7 @@ topbar:
     url : '/publications/'
     title : '学术文章'
   -
-    url : '/projects/issta2013/'
+    url : '/projects/afl/'
     title : '开源项目'
   -
     url : '/develop/index.html'
