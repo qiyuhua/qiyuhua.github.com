@@ -34,7 +34,7 @@ title: "Publications"
 
    Journal: *SCIENCE CHINA Information Sciences* pbulished on 2012
 
-+ **[Light-Weight Test Oracles for Resource Leaks Based on Finalizers][SATA2012] ()**
++ **[Light-Weight Test Oracles for Resource Leaks Based on Finalizers][SATA2012]**
 
 	Ziying Dai, Xiaoguang Mao, **Yuhua Qi**, and Kerong Ben  
     
