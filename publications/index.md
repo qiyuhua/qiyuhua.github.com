@@ -4,6 +4,8 @@ title: "Publications"
 ---
 {% include JB/setup %}
 
+	Please note that in computer science, top competitive conferences are the venues of choice for the leading people in the field to publish their best work. The top conferences select their papers on a highly competitive basis, fully reviewed by three or more referees with an acceptance rate around or below 20%. 
+
 ******
 ## 2013
 + **[Using Automated Program Repair for Evaluating the Effectiveness of Fault Localization Techniques][ISSTA2013]**
