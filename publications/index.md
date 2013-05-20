@@ -43,6 +43,6 @@ title: "Publications"
 [COMPSAC2013]: /publications/compasc2013.pdf  "download"
 [ICSM2012]: /publications/ICSM2012.pdf "download"
 [CHINA2012]: /publications/science_china.pdf "download"
-[ISSTA2013]: # "download"
+[ISSTA2013]: /publications/issta2013.pdf "download"
 [SATA2012]: # "download"
 
