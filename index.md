@@ -8,7 +8,7 @@ description: |
 
 <div class="row" style="margin-bottom:20px;">
   <div style="width:100%">
-    <h3 style="margin-bottom:5px; margin-left:20px; color:#333333; padding-top:25px;">要么旅行,要么读书,身体和灵魂,必须有一个在路上</h3>
+    <h3 style="margin-bottom:5px; margin-left:20px; color:#333333; padding-top:25px;">我们需要与众不同。我们本来就与众不同。</h3>
     <h6 align="right" style="font-size:12px; margin-right:8px">喜欢我或者我的博客，可以把它加入你的<a href="javascript:void(0)" onclick="window.external.AddFavorite(location.href, document.title)">收藏夹</a></h6>
   </div>
   <div class="divbox" style="width:96%;margin-right:0px;padding-right:10px;">
