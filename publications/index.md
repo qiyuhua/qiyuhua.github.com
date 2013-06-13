@@ -8,6 +8,12 @@ title: "Publications"
 
 ******
 ## 2013
++ **[Efficient Automated Program Repair through Fault-Recorded Testing Prioritization][ICSM2013]**
+
+	**Yuhua Qi**, Xiaoguang Mao, Yan Lei
+
+   *Proceedings of the 29th IEEE International Conference on Software Maintenance (ICSM 2013)*
+
 + **[Using Automated Program Repair for Evaluating the Effectiveness of Fault Localization Techniques][ISSTA2013]**
 
    **Yuhua Qi**, Xiaoguang Mao, Yan Lei, and Chengsong Wang
@@ -39,7 +45,7 @@ title: "Publications"
 	Ziying Dai, Xiaoguang Mao, **Yuhua Qi**, and Kerong Ben  
     
    *Proceedings of the 19th IEEE APSEC International Workshop on Software Analysis, Testing and Applications (SATA 2012)*
-
+[ICSM2013]: # "download"
 [COMPSAC2013]: /publications/compasc2013.pdf  "download"
 [ICSM2012]: /publications/ICSM2012.pdf "download"
 [CHINA2012]: /publications/science_china.pdf "download"
