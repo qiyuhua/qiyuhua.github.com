@@ -42,8 +42,8 @@ miaodians:
 
 <h3><a name="4">Results</a></h3>
    Result data in our experiment show that:
-   +In our experiment, for most programs (23/24), random search used by RSRepair performs better than genetic programming used by GenProg, regardless of whether genetic programming really starts to work or not.
-   +GenProg does not find a valid patch faster than RSRepair. Oppositely, in most cases, GenProg requires much more NTCE to repair faulty programs, leading to the lower repair efficiency than RSRepair.
+  + In our experiment, for most programs (23/24), random search used by RSRepair performs better than genetic programming used by GenProg, regardless of whether genetic programming really starts to work or not.
+  + GenProg does not find a valid patch faster than RSRepair. Oppositely, in most cases, GenProg requires much more NTCE to repair faulty programs, leading to the lower repair efficiency than RSRepair.
 
 <h3><a name="5">Tools and Data</a></h3>
    We give all the experimental results in our ICSE paper. For each subject program, we separately run RSRepair and GenProg to fix the bugs in 7 nontrivial programs with 24 versions. We record the repair log and data, resulting in some compression files (i.e., rar files) named with the corresponding subject programs. For one compression file such as php.rar, there are severval different folders, each of which includes both the repair log (debug and best folders) and statistic data (*-statistic.txt) corresponding to each program version. In addition, we also present the Matlab script (named process.m) used to analyze the result data in our paper. You can directly run the process.m on Matlab once all the rar file is decompressed. 
