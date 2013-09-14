@@ -19,7 +19,7 @@ topbar:
     url : '/publications/index.html'
     title : '学术文章'
   -
-    url : '/projects/afl/'
+    url : '/projects/index.html'
     title : '开源项目'
   -
     url : '/develop/index.html'
