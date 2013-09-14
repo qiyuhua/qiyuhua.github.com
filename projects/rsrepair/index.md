@@ -23,6 +23,9 @@ miaodians:
 ---
 {% include JB/setup %}
 
+<h2>The Strength of Random Search on Automated Program Repair</h2>
+  This site presents repair tools and experiment data used in our ICSE 2014 paper.
+
 <h3><a  name="1"> Introduction </a></h3>
    Automated program repair received considerable recent attention, and many techniques on this research area have been proposed. Among these techniques, two genetic-programming-based techniques, GenProg and Par, have shown the promising results. In particular, GenProg has been used as the baseline technique to check the repair effectiveness of new techniques in much literature. Although GenProg and Par have shown their strong ability of fixing real-life bugs in nontrivial programs, to what extent GenProg and Par can benefit from genetic programming, used by them to guide the patch search process, is still unknown.
 
@@ -42,6 +45,7 @@ miaodians:
 
 <h3><a name="4">Results</a></h3>
    Result data in our experiment show that:
+
   + In our experiment, for most programs (23/24), random search used by RSRepair performs better than genetic programming used by GenProg, regardless of whether genetic programming really starts to work or not.
   + GenProg does not find a valid patch faster than RSRepair. Oppositely, in most cases, GenProg requires much more NTCE to repair faulty programs, leading to the lower repair efficiency than RSRepair.
 
