@@ -7,6 +7,14 @@ title: "Publications"
    Please note that in computer science, top competitive conferences are the venues of choice for the leading people in the field to publish their best work. The top conferences select their papers on a highly competitive basis, fully reviewed by three or more referees with an acceptance rate around or below 20%. 
 
 ******
+## 2014
++ **[The Strength of Random Search on Automated Program Repair][ICSE2014]**
+
+	**Yuhua Qi**, Xiaoguang Mao, Yan Lei, Ziying Dai, and Chengsong Wang
+
+   *Proceedings of the 36th IEEE/ACM International Conference on Software Engineering (ICSE 2014)*
+
+******
 ## 2013
 + **[Efficient Automated Program Repair through Fault-Recorded Testing Prioritization][ICSM2013]**
 
@@ -45,6 +53,7 @@ title: "Publications"
 	Ziying Dai, Xiaoguang Mao, **Yuhua Qi**, and Kerong Ben  
     
    *Proceedings of the 19th IEEE APSEC International Workshop on Software Analysis, Testing and Applications (SATA 2012)*
+[ICSE2013]: # "download"
 [ICSM2013]: # "download"
 [COMPSAC2013]: /publications/compasc2013.pdf  "download"
 [ICSM2012]: /publications/ICSM2012.pdf "download"
