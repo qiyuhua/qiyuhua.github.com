@@ -53,7 +53,7 @@ title: "Publications"
 	Ziying Dai, Xiaoguang Mao, **Yuhua Qi**, and Kerong Ben  
     
    *Proceedings of the 19th IEEE APSEC International Workshop on Software Analysis, Testing and Applications (SATA 2012)*
-[ICSE2014]: # "download"
+[ICSE2014]: /publications/icse2014-qi.pdf "download"
 [ICSM2013]: # "download"
 [COMPSAC2013]: /publications/compasc2013.pdf  "download"
 [ICSM2012]: /publications/ICSM2012.pdf "download"
