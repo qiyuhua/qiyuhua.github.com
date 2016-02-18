@@ -37,13 +37,13 @@ Usage:
     <p style="color:#333333; font-weight: normal;">{{post.description}}</p>
     <div align="right" style="margin-right:10px; color:#0088CC; font-weight: 200;"><a href="{{ BASE_PATH }}{{ post.url }}">阅读全文 &raquo; </a></div>
     </div>
-    <hr/ style="margin-top:10px; margin-bottom:4px; style="padding-top:8px; padding-bottom:8px;">
+    <hr style="margin-top:10px; margin-bottom:4px; padding-top:8px; padding-bottom:8px;" />
     </dt>
   
     {% if forloop.last %}
 	<div align="right" style="background-color: #FFFFFF;">
   		{% if posts_all.size > count %}
-    			<a class="btn btn-primary" href="post_all.html" style="margin-right:10px; font-weight: 200;";>查看更多</a>
+    			<a class="btn btn-primary" href="post_all.html" style="margin-right:10px; font-weight: 200;">查看更多</a>
   		{% endif %}
  	</div>
       </dl>
